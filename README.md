@@ -18,3 +18,4 @@ I used VsCode for Creation and Deployment.
 3. Type `npm create-react-app foldername` command.
 4. After that `npm install` to install the node.
 5. After sucessfull installation type `npm start` to start the program.
+6. After Sucessfull Full Deployment you can see the result on `localhost:3000`
