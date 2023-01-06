@@ -16,7 +16,7 @@ import moment from "moment";
 const Pm1 = ({ deviceA}) => {
   const theme = useTheme();
 
-  // Forming a custom data array containing pm1 values of deviceA, deviceB, and deviceC with common timestamps
+  // Forming a custom data array containing pm1 values of deviceA with common timestamps
   const data = [];
   if (!deviceA.loading ) {
     deviceA.value.forEach((readingA, index) => {
